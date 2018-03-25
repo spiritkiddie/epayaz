@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Epayaz:Home</title>
+        <meta name="description" content="">
+        <!-- ============== vendor Resources ============== -->
+        <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./vendor/vegas/vegas.min.css">
+        <link rel="stylesheet" href="./vendor/venobox/venobox.css">
+        <link rel="stylesheet" href="./vendor/animate/animate.css">
+        <!-- ============== favicon Resources ============== -->
+        <!-- <link rel="shortcut icon" href="./images/favicon.png" type="image/png"> -->
+        <!-- ============== custom Resources ============== -->
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+
+        <header class="nav-header">
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-primary">
+              <div class="container">
+                  <a class="navbar-brand" href="#">Epayaz</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" data-scroll  href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-3">
+                            <a class="nav-link" data-scroll  href="#">Dashboard</a>
+                        </li>
+                        <div class="dropdown">
+                            <a class="btn btn-outline-light thick-outline dropdown-toggle" href="#" role="button" id="profile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hell'o Rashid
+                            </a>
+                        
+                            <div class="dropdown-menu" aria-labelledby="profile">
+                                <a class="dropdown-item" href="#">
+                                    <span class="mr-2" data-feather="edit"></span>
+                                    Update Profile
+                                </a>
+                                <a class="dropdown-item" href="#">
+                                    <span class="mr-2" data-feather="user"></span>
+                                    Accounts
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <span class="mr-2" data-feather="log-out"></span>
+                                    Sign Out
+                                </a>
+                            </div>
+                        </div>
+                    </ul>
+                  </div>
+              </div>
+            </nav>
+        </header>
+      
+        <main role="main" style="margin-top: 64px;">
+      
+            <div class="container-fluid">
+                <div class="row">
+                    <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                        <div class="sidebar-sticky">
+                            <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">
+                                <span data-feather="home"></span>
+                                Dashboard <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                <span data-feather="credit-card"></span>
+                                    Donations
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                <span data-feather="cpu"></span>
+                                    User Account
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                <span data-feather="trending-down"></span>
+                                    Marketing
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                <span data-feather="bar-chart-2"></span>
+                                    Downline
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                <span data-feather="settings"></span>
+                                    Settings
+                                </a>
+                            </li>
+                            </ul>
+                
+                            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                            <span>Support</span>
+                            <a class="d-flex align-items-center text-muted" href="#">
+                                <span data-feather="plus-circle"></span>
+                            </a>
+                            </h6>
+                            <ul class="nav flex-column mb-2">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                    <span data-feather="file-text"></span>
+                                        Guides & Tutorials
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                    <span data-feather="code"></span>
+                                        Technical
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                    <span data-feather="log-out"></span>
+                                        Sign Out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+            
+                    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+                    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                        <h1 class="h2">Dashboard</h1>
+                        <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group mr-2">
+                            <button class="btn btn-sm btn-outline-secondary">Donation</button>
+                            <button class="btn btn-sm btn-outline-secondary">Pending Donation</button>
+                            <button class="btn btn-sm btn-outline-secondary">Income</button>
+                        </div>
+                        <button class="btn btn-sm btn-outline-secondary dropdown-toggle">
+                            <span data-feather="calendar"></span>
+                            This week
+                        </button>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-4 profile-card">
+                            <div class="profile-card-w">
+                                <div class="profile-bg"></div>
+                                <div class="profile-detail">
+                                    <div class="profile-gravatar"></div>
+                                    <div class="details text-center">
+                                        <h5 class="profile-name">Rashid Adam</h5>
+                                        <p class="profile-email mb-2">rashidadam247@gmail.com</p>
+                                        <p class="profile-phone mb-2">055 551 5455</p>
+                                        
+                                        <div class="row card-footer">
+                                            <div class="col-sm-6">
+                                                <span class="badge badge-primary mb-1">Last Login</span>
+                                                <p class="last-login mb-2">19 March, 2018</p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <span class="badge badge-primary mb-1">Date Join</span>
+                                                <p class="date-join mb-2">17 March, 2018</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 activities">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <span class="ico" data-feather="award"></span>
+                                                Total Earn
+                                            </h5>
+                                            <p class="card-text big-f">$ 67878.9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">
+                                                <span class="ico" data-feather="bar-chart-2"></span>
+                                                Total Downline
+                                            </h5>
+                                            <p class="card-text big-f">245</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="activities-w mt-4">
+                                <canvas class="my-4" id="myChart" width="707" height="380"></canvas>
+                            </div>
+                        </div>
+                    </div>
+        
+                    </main>
+                </div>
+            </div>
+          
+            <!-- FOOTER -->
+            <footer class="offset-md-2">
+              <div class="container">
+                  <p class="float-right"><a href="#">Back to top</a></p>
+                  <p>&copy; 2017-2018 Epayaz, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+              </div>
+            </footer>
+        </main>
+      
+       
+        <!-- =================  ================= -->
+        <!-- ============== Scripts ============== -->
+        <!-- =================  ================= -->
+        <script src="./vendor/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script src="./vendor/vegas/vegas.min.js"></script> -->
+        <script src="./vendor/smoothscroll/jquery.mCustomScrollbar.js"></script>
+        <script src="./vendor/smoothscroll/smooth-scroll.js"></script>
+        <script src="./vendor/typed.js/typed.min.js"></script>
+        <script src="./js/holder.min.js"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbVnivfXiQBym5S3ZteioBtQGb90-ZcVk&callback=initMap" async defer></script> -->
+        <!-- ============== Scripts ============== -->
+        <script src="./js/epayaz.js"></script>
+
+         <!-- Icons -->
+        <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+        <script>
+            feather.replace()
+        </script>
+
+        <!-- Graphs -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+        <script>
+            var ctx = document.getElementById("myChart");
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Nov", "Dec"],
+                    datasets: [{
+                        data: [15339, 21345, 18483, 24003, 23489, 24092, 13034, 15339, 24003, 18483, 13034, 23489],
+                            lineTension: 0,
+                            //backgroundColor: 'transparent',
+                            backgroundColor: ["#ff6384","#36a2eb","#cc65fe","#ffce56","#6610f2","#fd7e14","#17a2b8","#e83e8c","#770D1C","#F42B03","#dc3545","#868e96"],
+                            borderWidth: 1,
+                            pointBackgroundColor: '#007bff'
+                    }]
+                },
+                options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: false
+                        }
+                    }]
+                },
+                    legend: {
+                        display: true,
+                        labels: {
+                            fontColor: 'rgb(255, 99, 132)'
+                        }
+                    }
+                }
+            });
+        </script>
+
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+        
+          gtag('config', 'GA_TRACKING_ID');
+        </script> -->
+    </body>
+</html>

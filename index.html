@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Epayaz:Home</title>
+        <meta name="description" content="">
+        <!-- ============== vendor Resources ============== -->
+        <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./vendor/vegas/vegas.min.css">
+        <link rel="stylesheet" href="./vendor/venobox/venobox.css">
+        <link rel="stylesheet" href="./vendor/animate/animate.css">
+        <!-- ============== favicon Resources ============== -->
+        <!-- <link rel="shortcut icon" href="./images/favicon.png" type="image/png"> -->
+        <!-- ============== custom Resources ============== -->
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+
+        <header class="nav-header">
+            <nav class="navbar navbar-expand-md navbar-dark">
+              <div class="container">
+                  <a class="navbar-brand" href="#">Epayaz</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" data-scroll  href="#home">Home <span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-scroll  href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-scroll  href="#service">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" data-scroll  href="signin.html">Sign In</a>
+                      </li>
+                      <li class="nav-item ml-4">
+                          <a class="nav-link font-weight-normal signUP" href="#">Sign Up</a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
+            </nav>
+        </header>
+      
+        <main role="main">
+      
+            <div class="jumbotron" id="#home">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6 hero-cap">
+                        <div class="hero-cap__inner">
+                          <p>Welcome To Our <strong>Epayaz</strong> Society!</p>
+                          <h1 class="display-3 font-weight-bold">IT'S NICE TO MEET YOU!</h1>
+                          <span id="typed"></span>
+                          <div class="button">
+                            <a class="btn btn-green btn-lg mt-4 raw-c" href="#" role="button">Learn more »</a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-signin ml-auto mr-auto pt-2 pb-4 validate-me" novalidate>
+                          <div class="container">
+                              <div class="text-center mb-4">
+                                <h1 class="h3 mb-3 font-weight-thin">Sign Up</h1>
+                                <p class="font-weight-normal">Sign Up to <strong>Epayaz</strong>, Together We Build a Happy World!</a></p>
+                                <hr class="mb-2">
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6 mb-3 is-input">
+                                  <label for="username">First Name</label>
+                                  <input type="text" class="form-control" id="fname" placeholder="" value="" required="">
+                                  <div class="invalid-tooltip">
+                                    Valid First Name is required.
+                                  </div>
+                                </div>
+                                <div class="col-md-6 mb-3 is-input">
+                                  <label for="email">Last Name</label>
+                                  <input type="text" class="form-control" id="lname" placeholder="" value="" required="">
+                                  <div class="invalid-tooltip">
+                                    Valid Last Name is required.
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-md-6 mb-3 is-input">
+                                  <label for="username">Username</label>
+                                  <input type="text" class="form-control" id="username" placeholder="" value="" required="">
+                                  <div class="invalid-tooltip">
+                                    Valid Username is required.
+                                  </div>
+                                </div>
+                                <div class="col-md-6 mb-3 is-input">
+                                  <label for="email">Email</label>
+                                  <input type="email" class="form-control" id="email" placeholder="" value="" required="">
+                                  <div class="invalid-tooltip">
+                                    Valid Email is required.
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="row">
+                                <div class="col-md-6 mb-3 is-input">
+                                  <label for="password">Password</label>
+                                  <input type="password" class="form-control" id="password" placeholder="" value="" required="">
+                                  <div class="invalid-tooltip">
+                                    Password must be atleast 6.
+                                  </div>
+                                </div>
+                                <div class="col-md-6 mb-3 is-input">
+                                  <label for="confirmPassword">Confirm Password</label>
+                                  <input type="password" class="form-control" id="confirmPassword" placeholder="" value="" required="">
+                                  <div class="invalid-tooltip">
+                                    Password does not match.
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div class="row">
+                                  <div class="col-md-12 mb-4 is-input">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="text" id="phone" class="form-control" placeholder="" required="">
+                                    <div class="invalid-tooltip">
+                                        Valid Phone Number is required.
+                                    </div>
+                                  </div>
+                              </div>
+                             
+                          
+                              <button class="btn btn-lg btn-green btn-block mt-4 raw-c" type="submit">Create Account</button>
+                          </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+            </div>
+      
+      
+            <!-- Abouts us
+            ================================================== -->
+            <!-- Wrap the rest of the page in another container to center all the content. -->
+      
+            <div class="container marketing">
+      
+              <div class="row about is-section" id="about">
+                  <h2 class="epayaz-heading">About <span class="text-muted">Us</span></h2>
+                <div class="contents">
+                  <p>
+                    This is a platform designed to bridge the divide between the various standards
+                    of living by bringing people together with the ultimate aim of fostering the
+                    greater good of mankind, through, humanitarian services, core value
+                    investments, venture capitalism and currency trading.
+                  </p>
+                  <p>
+                      <strong>ePayaz</strong> is structured in such a way as to accommodate almost everyone whom is
+                      passionate about investments and entrepreneurship, with several categories
+                      including an e-commerce system providing business to business (B2B), business
+                      to consumer (B2C) and also consumer to consumer (C2C) and so on.
+                  </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="icons mb-4">
+                        <img src="images/vision.svg" alt="icon">
+                    </div>
+                    <h2 class="epayaz-heading-sub">Our <span class="text-muted">Vission</span></h2>
+                    <div class="contents">
+                      <p>
+                          To empower your ability to live a sustainable life without having to rely on
+                          your job or anyone else for cash. You just let your little cash work for you
+                          regardless of your financial capacity.
+                      </p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="icons mb-4">
+                        <img src="images/mission.svg" alt="icon">
+                    </div>
+                    <h2 class="epayaz-heading-sub">Our <span class="text-muted">Mission</span></h2>
+                    <div class="contents">
+                        <p>
+                            <strong>ePayaz</strong> was established with the ultimate mission "to promote the greater good,
+                            with a particular emphasis on helping man and the environment.
+                        </p>
+                    </div>
+                </div>
+              </div><!-- /.row -->
+      
+            </div><!-- /.container -->
+
+            <div class="whyEpayaz text-center">
+              <h2 class="epayaz-heading-sub">WHY CHOOSE  <span class="text-muted">ePAYAZ?</span></h2>
+              <div class="contents container pt-4 pb-4">
+                <p>
+                    Here, we”re dedicated at providing you with competitive options and
+                    opportunities, designed help you survive and become empowered at all times. We
+                    educate you especially on how to take control of your life and adequately
+                    qualify you for multiple streams of income.
+                </p>
+                <p>
+                    Our money solutions is unique and
+                    highly beneficial to its members both in acquiring knowledge and
+                    financial empowerment. The range of our services will get you excited and
+                    our membership compensation plan will provoke the leadership in you
+                </p>
+              </div>
+            </div>
+      
+            <div class="container marketing" id="service">
+      
+                <div class="row epayaz is-section">
+                  <div class="col-md-7">
+                    <h2 class="epayaz-heading">Our <span class="text-muted">Services</span></h2>
+                    <div class="contents">
+                        <p class="lead">
+                            The portal is divided into two categories; the humanitarian services and the
+                            venture capitalism services (i.e providing capital for a business for a
+                            specified space of time for a workable profit). In the humanitarian services,
+                            participants donate to participants that need help and also are donated for.
+                            This is a mutual association between multiple participants, where their
+                            contributions are allowed to be benefited by themselves with a good
+                            compensation plan ranging from 40% - 50% reward based on the system On-Demand
+                            (OD) using Logical Scattered Matrix Plan (LSMP). The donation is made directly
+                            to member account and one is limited to one account unless otherwise.
+                        </p>
+                        <p class="lead">
+                            However, when a participant donates to another participant that needs help in
+                            the system, the LSMP will create a span limit "OD" during which the donor will
+                            in turn receive his/her donated amount plus the 40% - 50% reward as a
+                            philanthropist within 5 to 7 working days. As the participant keeps donating to
+                            the needy, so shall his/her reward be growing.
+                        </p>
+                        <p class="lead">
+                            The other is like a fixed deposit account but with a more flexible and
+                            rewarding mechanism. You choose the amount to invest from a list of ranges
+                            which in turn rewards you respectively within a specified space of time as
+                            indicated. You will be provided with a moderator to guide you through.
+                        </p>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <img class="epayaz-image img-fluid mx-auto" src="images/agreement.svg" alt="icon">
+                  </div>
+                </div>
+      
+        
+                <hr class="epayaz-divider"> 
+      
+      
+            </div><!-- /.container -->
+      
+      
+            <!-- FOOTER -->
+            <footer>
+              <div class="container">
+                  <p class="float-right"><a href="#">Back to top</a></p>
+                  <p>&copy; 2017-2018 Epayaz, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+              </div>
+            </footer>
+        </main>
+      
+       
+        <!-- =================  ================= -->
+        <!-- ============== Scripts ============== -->
+        <!-- =================  ================= -->
+        <script src="./vendor/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script src="./vendor/vegas/vegas.min.js"></script> -->
+        <script src="./vendor/smoothscroll/jquery.mCustomScrollbar.js"></script>
+        <script src="./vendor/smoothscroll/smooth-scroll.js"></script>
+        <script src="./vendor/typed.js/typed.min.js"></script>
+        <script src="./js/holder.min.js"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbVnivfXiQBym5S3ZteioBtQGb90-ZcVk&callback=initMap" async defer></script> -->
+        <!-- ============== Scripts ============== -->
+        <script src="./js/epayaz.js"></script>
+
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+        
+          gtag('config', 'GA_TRACKING_ID');
+        </script> -->
+    </body>
+</html>

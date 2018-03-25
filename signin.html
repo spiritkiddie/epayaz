@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Epayaz: Sign In</title>
+        <meta name="description" content="">
+        <!-- ============== vendor Resources ============== -->
+        <link rel="stylesheet" href="./vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./vendor/vegas/vegas.min.css">
+        <link rel="stylesheet" href="./vendor/venobox/venobox.css">
+        <link rel="stylesheet" href="./vendor/animate/animate.css">
+        <!-- ============== favicon Resources ============== -->
+        <!-- <link rel="shortcut icon" href="./images/favicon.png" type="image/png"> -->
+        <!-- ============== custom Resources ============== -->
+        <link rel="stylesheet" href="./css/main.css">
+        <style>
+            body,html {
+                height: 100%;
+            }
+            body {
+                padding: 140px 0; 
+                background: url('./images/full-bg.svg') no-repeat center; 
+                background-size: cover;
+            }
+        </style>
+    </head>
+    <body>
+
+        <form class="form-signin validate-me" novalidate>
+            <div class="text-center mb-4">
+                <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                <h1 class="h3 mb-3 font-weight-thin">Sign In to <strong>Epayaz</strong></h1>
+            </div>
+        
+            <div class="col-md-12 mb-3 is-input">
+                <label for="username">Username</label>
+                <input type="text" id="username" class="form-control" placeholder="Username" required="" autofocus="">
+                <div class="invalid-tooltip">
+                    Valid Username is required.
+                </div>
+            </div>
+        
+            <div class="col-md-12 mb-3 is-input">
+                <label for="inputPassword">Password</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                <div class="invalid-tooltip">
+                    Input your Password.
+                </div>
+            </div>
+
+            <button class="btn btn-lg btn-green btn-block" type="submit">Sign in</button>
+            
+            <div class="checkbox mb-3 mt-4">
+                <small>Don't have an account? <a href="signup.html">Sign Up</a> </small>
+            </div>
+        </form>
+        <div class="footer">
+            <div class="container"><small> &copy; 2017-2018 Epayaz, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></small></div>
+        </div>
+        <!-- =================  ================= -->
+        <!-- ============== Scripts ============== -->
+        <!-- =================  ================= -->
+        <script src="./vendor/jquery/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+        <!-- <script src="./vendor/vegas/vegas.min.js"></script> -->
+        <script src="./vendor/smoothscroll/jquery.mCustomScrollbar.js"></script>
+        <script src="./vendor/smoothscroll/smooth-scroll.js"></script>
+        <script src="./vendor/typed.js/typed.min.js"></script>
+        <script src="./js/holder.min.js"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbVnivfXiQBym5S3ZteioBtQGb90-ZcVk&callback=initMap" async defer></script> -->
+        <!-- ============== Scripts ============== -->
+        <script src="./js/epayaz.js"></script>
+
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+        
+          gtag('config', 'GA_TRACKING_ID');
+        </script> -->
+    </body>
+</html>
